@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <script src="JS/Action.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm" onsubmit="return validar()">
+            <input type="email" id="email" class="input" placeholder="Usuário" >
+            <input type="password" id="senha" class="input" placeholder="Senha">
+            <button type="submit" class="login">Entrar</button>
+        </form>
+        <span class="esqueciasenha">
+            <a href="#">Esqueceu a senha?</a>
+        </span>
+    </div>
+</body>
+</html>
